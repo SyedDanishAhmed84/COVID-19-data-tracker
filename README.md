@@ -23,11 +23,18 @@ Used SQL queries to:
 
 - Linear Regression: Predicted confirmed cases based on Deaths, Recovered, Active, and New cases
 
-- Random Forest Classifier: Classified pandemic severity with 96% accuracy, validated by confusion matrix
+- Random Forest Classifier:
+  Implemented a multi-class classification model to evaluate pandemic severity. The model’s confusion matrix shows strong classification performance across three classes, with 14, 17, and 24 correct predictions respectively, and only 2 misclassifications   in the middle class.
 
 - Clustering: Grouped countries based on pandemic impact using clustering techniques
 
-- Naive Bayes Classifiers: Achieved 92% accuracy with Gaussian Naive Bayes and 81% with Bernoulli Naive Bayes
+- Naive Bayes Classifiers:
+
+- Gaussian Naive Bayes:
+  Achieved high accuracy (92%) with a confusion matrix indicating 28 true positives, 3 false positives in the first class, and 7 true positives in the second class.
+
+- Bernoulli Naive Bayes:
+  While the model correctly predicted 31 cases of the first class, it struggled with the second class, resulting in 7 false negatives and no correct predictions for that class.
 
 ## 📉 Visualizations
 
